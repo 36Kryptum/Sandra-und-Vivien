@@ -253,6 +253,7 @@ a {
   grid-column-gap: 44px;
   grid-row-gap: 44px;
   grid-template-rows: auto;
+  align-items: start;
 }
 
 .p-classic {
@@ -475,11 +476,14 @@ a {
   width: 100%;
   grid-column-gap: 60px;
   grid-row-gap: 0px;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
 }
 
 .about-image {
+  height: 100%;
+  background-image: url('../images/WhatsApp-Image-2023-12-21-at-02.04.51.jpeg');
+  background-position: 50% 30%;
+  background-size: auto;
   border-radius: 20px;
 }
 
@@ -488,7 +492,7 @@ a {
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
-  border-radius: 20px;
+  border-radius: 10px;
   display: block;
 }
 
@@ -631,6 +635,14 @@ a {
   padding-top: 140px;
 }
 
+.image {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  flex: 0 auto;
+  align-self: flex-start;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     padding-top: 100px;
@@ -739,6 +751,10 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  .team {
+    margin-bottom: 0;
+  }
+
   .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -828,6 +844,10 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  .team {
+    padding-top: 0;
+  }
+
   .container {
     justify-content: center;
   }
