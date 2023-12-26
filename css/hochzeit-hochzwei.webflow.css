@@ -269,6 +269,7 @@ a {
 
 .p-classic.color {
   color: var(--color--brown);
+  text-align: justify;
   font-family: "64 F 32 B 873 A 3 Dc 9 A 3447605 B 3 Supreme Variable", sans-serif;
 }
 
@@ -531,7 +532,7 @@ a {
   padding-right: 1px;
 }
 
-.button-icon {
+.button-icon-heart {
   padding-left: 5px;
 }
 
@@ -665,6 +666,52 @@ a {
 
 .image-2 {
   width: 100px;
+}
+
+.slide-2 {
+  background-image: url('../images/kleemeier-kollektion-2021-brautkleider-120270-kahlia-ruecken10x.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-3 {
+  background-image: url('../images/kleemeier-kollektion-2021-brautkleider-120395-kundry-2.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-4 {
+  background-image: url('../images/kleemeier-kollektion-2021-brautkleider-120535-linea.webp');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-1 {
+  background-image: url('../images/Kleemeier_122270.jpeg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide-5 {
+  background-image: url('../images/Kleemeier_122110.jpeg');
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.slider {
+  height: 100%;
+  min-height: 500px;
+  background-color: var(--color--creme);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.icon-2, .icon-3 {
+  color: var(--color--primary);
 }
 
 @media screen and (max-width: 991px) {
