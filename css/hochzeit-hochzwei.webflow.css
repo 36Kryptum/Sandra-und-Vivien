@@ -1,8 +1,8 @@
 :root {
   --color--creme: #f4eee9;
-  --color--secondary\<deleted\|variable-b082757a\>: #fae3b6;
-  --color--primary: #c79691;
   --color--brown: #704f38;
+  --color--primary: #c79691;
+  --color--secondary\<deleted\|variable-b082757a\>: #fae3b6;
 }
 
 .w-layout-grid {
@@ -76,7 +76,6 @@
 
 body {
   background-color: var(--color--creme);
-  color: var(--color--secondary\<deleted\|variable-b082757a\>);
   font-family: "64 F 32 B 873 A 3 Dc 9 A 3447605 B 3 Supreme Variable", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -104,7 +103,7 @@ p {
 }
 
 a {
-  color: var(--color--secondary\<deleted\|variable-b082757a\>);
+  color: var(--color--brown);
   text-decoration: underline;
 }
 
@@ -273,6 +272,10 @@ a {
   font-family: "64 F 32 B 873 A 3 Dc 9 A 3447605 B 3 Supreme Variable", sans-serif;
 }
 
+.p-classic.color.mb {
+  margin-bottom: 32px;
+}
+
 .title-small-2 {
   color: var(--color--primary);
   letter-spacing: 1px;
@@ -326,8 +329,12 @@ a {
 }
 
 .section {
-  margin-top: 60px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
   padding-bottom: 0;
+  display: flex;
 }
 
 .heading-2 {
@@ -710,7 +717,7 @@ a {
   overflow: hidden;
 }
 
-.icon-2, .icon-3 {
+.icon-2, .icon-3, .link {
   color: var(--color--primary);
 }
 
