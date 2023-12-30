@@ -781,6 +781,11 @@ a {
     position: relative;
   }
 
+  .navbar-brand-three.w--current {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .nav-menu-wrapper-three {
     background-color: rgba(0, 0, 0, 0);
     top: 70px;
@@ -862,8 +867,8 @@ a {
   }
 
   .container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .footer-wrapper {
@@ -908,6 +913,11 @@ a {
 
   .navbar-brand-three {
     padding-left: 0;
+  }
+
+  .navbar-brand-three.w--current {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .nav-menu-three {
@@ -956,6 +966,8 @@ a {
 
   .container {
     justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .hero-heading {
