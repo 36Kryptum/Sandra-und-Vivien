@@ -646,7 +646,7 @@ a {
   color: var(--color--primary);
 }
 
-.image-3 {
+.logo {
   width: 100px;
 }
 
@@ -1112,7 +1112,7 @@ a {
     margin-bottom: 32px;
   }
 
-  .image-3 {
+  .logo {
     width: 80px;
   }
 
