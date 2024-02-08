@@ -271,7 +271,6 @@ a {
 
 .p-classic.color {
   color: var(--color--brown);
-  text-align: justify;
   font-family: "64 F 32 B 873 A 3 Dc 9 A 3447605 B 3 Supreme Variable", sans-serif;
 }
 
@@ -1202,6 +1201,11 @@ a {
 
   .menu-button-2 {
     padding: 12px;
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
   }
 
   .menu-button-2.w--open {
@@ -1473,6 +1477,14 @@ a {
     flex-direction: column;
   }
 
+  .menu-button-2 {
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+
   .maps {
     height: 100vw;
   }
@@ -1524,6 +1536,10 @@ a {
 
   .waves-content-bar-2 {
     grid-row-gap: 12px;
+  }
+
+  .link-4 {
+    word-break: break-all;
   }
 }
 
