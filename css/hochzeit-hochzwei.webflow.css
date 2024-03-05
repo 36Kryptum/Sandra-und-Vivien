@@ -237,6 +237,7 @@ a {
 
 .heading1.bm {
   margin-bottom: 20px;
+  line-height: 1;
 }
 
 .bold {
@@ -1133,7 +1134,6 @@ a {
 }
 
 .image-news {
-  width: 500px;
   border-radius: 10px;
 }
 
@@ -1142,6 +1142,7 @@ a {
 }
 
 .div-block-28 {
+  max-width: 500px;
   background-color: #fff;
   border-radius: 10px;
   padding: 32px;
@@ -1609,6 +1610,10 @@ a {
 
   .sec-news {
     padding-top: 96px;
+  }
+
+  .div-block-28 {
+    padding: 16px;
   }
 }
 
