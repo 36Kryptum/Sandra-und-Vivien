@@ -497,7 +497,7 @@ a {
   width: 100%;
   grid-column-gap: 60px;
   grid-row-gap: 0px;
-  padding: 0;
+  padding: 64px 0;
 }
 
 .about-image {
@@ -1148,6 +1148,63 @@ a {
   padding: 32px;
 }
 
+.opening {
+  border-top: 1px solid var(--color--brown);
+  border-bottom: 1px solid var(--color--brown);
+  background-color: var(--waves-library--white);
+  padding: 80px 30px;
+  position: relative;
+}
+
+.container-5 {
+  width: 100%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.hero-split {
+  max-width: 46%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.shadow-two {
+  box-shadow: 0 4px 24px rgba(150, 163, 181, .08);
+}
+
+.margin-bottom-24px {
+  margin-bottom: 24px;
+}
+
+.button-primary {
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #1a1b1f;
+  padding: 12px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  transition: all .2s;
+}
+
+.button-primary:hover {
+  color: #fff;
+  background-color: #32343a;
+}
+
+.button-primary:active {
+  background-color: #43464d;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     margin-bottom: 32px;
@@ -1317,6 +1374,22 @@ a {
     justify-content: flex-start;
     padding-left: 24px;
   }
+
+  .container-5 {
+    max-width: 728px;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -40px;
+  }
+
+  .hero-split {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1484,6 +1557,10 @@ a {
     grid-template-rows: auto;
     grid-template-columns: 1fr;
   }
+
+  .opening {
+    padding: 60px 15px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1614,6 +1691,15 @@ a {
 
   .div-block-28 {
     padding: 16px;
+  }
+
+  .opening {
+    border-top: 1px solid var(--color--brown);
+    border-bottom-color: var(--color--brown);
+  }
+
+  .container-5 {
+    max-width: none;
   }
 }
 
