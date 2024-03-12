@@ -1178,6 +1178,7 @@ a {
 }
 
 .shadow-two {
+  border-radius: 10px;
   box-shadow: 0 4px 24px rgba(150, 163, 181, .08);
 }
 
