@@ -1206,6 +1206,28 @@ a {
   background-color: #43464d;
 }
 
+.whatsapp-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.whatsapp-link {
+  z-index: 99;
+  background-color: #4ccb5b;
+  border-radius: 50px;
+  padding: .625rem;
+  position: fixed;
+  top: auto;
+  bottom: 1.25rem;
+  left: auto;
+  right: 1.25rem;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, .3);
+}
+
+.whatsapp-link:hover {
+  box-shadow: 0 0 13px 5px rgba(76, 203, 91, .38);
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     margin-bottom: 32px;
@@ -1349,6 +1371,10 @@ a {
     width: 80px;
   }
 
+  .fs-cc-manager_component {
+    display: flex;
+  }
+
   .fs-cc-banner_container {
     flex-direction: column;
     align-items: flex-start;
@@ -1390,6 +1416,11 @@ a {
   .hero-split {
     max-width: 100%;
     margin-bottom: 40px;
+  }
+
+  .whatsapp-icon {
+    width: 2rem;
+    height: 2rem;
   }
 }
 
