@@ -241,7 +241,12 @@ a {
 }
 
 .heading2.big-margin {
+  text-align: center;
   margin-bottom: 16px;
+}
+
+.heading2.center {
+  text-align: center;
 }
 
 .bold {
@@ -303,6 +308,10 @@ a {
 
 .p-classic.color.mb {
   margin-bottom: 32px;
+}
+
+.p-classic.center {
+  text-align: center;
 }
 
 .title-small-2 {
@@ -640,28 +649,28 @@ a {
 }
 
 .slide-2 {
-  background-image: url('../images/kleemeier-kollektion-2021-brautkleider-120270-kahlia-ruecken10x.webp');
+  background-image: url('../images/IMG_1395.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .slide-3 {
-  background-image: url('../images/kleemeier-kollektion-2021-brautkleider-120395-kundry-2.webp');
+  background-image: url('../images/IMG_1393.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .slide-4 {
-  background-image: url('../images/kleemeier-kollektion-2021-brautkleider-120535-linea.webp');
+  background-image: url('../images/IMG_1397.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .slide-1 {
-  background-image: url('../images/Kleemeier_122270.webp');
+  background-image: url('../images/IMG_1392.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1255,6 +1264,7 @@ a {
   grid-row-gap: 128px;
   flex-flow: column;
   display: flex;
+  overflow: hidden;
 }
 
 .hero-gallery {
@@ -1311,6 +1321,74 @@ a {
 
 .body-2 {
   color: var(--color--brown);
+}
+
+.main-slider {
+  width: 400px;
+  height: 500px;
+}
+
+.slider-image {
+  object-fit: cover;
+  object-position: 50% 0%;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+}
+
+.div-block-29 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.slider-2 {
+  background-color: rgba(0, 0, 0, 0);
+  width: 400px;
+  height: 400px;
+  position: static;
+}
+
+.mask {
+  position: static;
+  overflow: visible;
+}
+
+.slide-content-wrapper {
+  background-color: #e1e1e1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.slider-text {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.slider-left-arrow, .slider-right-arrow {
+  color: #444;
+}
+
+.slider-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.slick-slider {
+  background-color: rgba(0, 0, 0, 0);
+  width: 400px;
+  height: 500px;
+  position: static;
 }
 
 @media screen and (max-width: 991px) {
