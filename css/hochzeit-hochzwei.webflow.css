@@ -307,6 +307,7 @@ a {
 }
 
 .p-classic.color.mb {
+  max-width: 60ch;
   margin-bottom: 32px;
 }
 
@@ -1412,6 +1413,16 @@ a {
   display: flex;
 }
 
+.image {
+  border-radius: 10px;
+  max-height: 600px;
+}
+
+.scheider-grid {
+  grid-column-gap: 64px;
+  grid-row-gap: 64px;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     margin-bottom: 32px;
@@ -1803,6 +1814,12 @@ a {
   .link-block-with-heart-copy, .link-block {
     text-decoration: none;
   }
+
+  .scheider-grid {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1955,6 +1972,10 @@ a {
 
   .image-gallery {
     height: 400px;
+  }
+
+  .image {
+    border-radius: 10px;
   }
 }
 
