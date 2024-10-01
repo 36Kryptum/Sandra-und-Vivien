@@ -1494,7 +1494,6 @@ a {
 
 .fs_radio-3_field {
   background-color: var(--color--creme);
-  color: #000;
   cursor: pointer;
   border-radius: 10px;
   margin-bottom: 0;
@@ -1503,7 +1502,6 @@ a {
 }
 
 .fs_radio-3_field:hover {
-  color: #696969;
   border-color: #696969;
 }
 
