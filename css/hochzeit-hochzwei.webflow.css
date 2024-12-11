@@ -1382,6 +1382,7 @@ a {
 .slider-wrapper {
   justify-content: center;
   align-items: center;
+  width: 100%;
   display: flex;
   position: relative;
 }
