@@ -5,7 +5,7 @@
   --color--secondary\<deleted\|variable-b082757a\>: #fae3b6;
   --waves-library--white: white;
   --waves-library--black: #131313;
-  --accessible-components--dark-grey: #9b9b9b;
+  --accessible-components--dark-grey: #9b9b9b00;
 }
 
 .w-layout-grid {
@@ -1878,7 +1878,7 @@ a {
   align-items: center;
   padding-left: 2rem;
   padding-right: 2rem;
-  display: none;
+  display: flex;
   position: fixed;
   inset: 0%;
 }
@@ -1894,6 +1894,7 @@ a {
   grid-row-gap: 0rem;
   color: #000;
   background-color: #fff;
+  border-radius: 16px;
   flex-flow: column;
   grid-template-rows: auto;
   grid-template-columns: .75fr 1fr;
@@ -1904,6 +1905,7 @@ a {
   max-width: 40rem;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .fs_modal-2_image {
