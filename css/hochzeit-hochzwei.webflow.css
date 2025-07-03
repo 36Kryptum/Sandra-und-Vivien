@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "64 F 32 B 873 A 3 Dc 9 A 3447605 B 3 Supreme Variable";
+  src: url('../fonts/64f32b873a3dc9a3447605b3_Supreme-Variable.ttf') format("truetype");
+  font-weight: 100 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "64 F 32 B 23 Ccd 100 A 57 D 90 C 593 Zodiak Variable";
+  src: url('../fonts/64f32b23ccd100a57d90c593_Zodiak-Variable.ttf') format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color--creme: #f4eee9;
   --color--brown: #704f38;
@@ -565,7 +581,7 @@ a {
   margin-bottom: 32px;
 }
 
-.div-block-12 {
+.heart-button-text {
   display: flex;
 }
 
@@ -1968,6 +1984,23 @@ a {
   margin-top: 16px;
 }
 
+.button-lightbox {
+  background-color: var(--color--primary);
+  color: var(--color--creme);
+  border-radius: 10px;
+  padding: 16px 12px;
+  text-decoration: none;
+}
+
+.div-block-33 {
+  align-self: center;
+}
+
+.spacer-sm {
+  width: 100%;
+  height: 16px;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     margin-bottom: 32px;
@@ -2352,7 +2385,7 @@ a {
     width: 70%;
   }
 
-  .link-block-with-heart, .div-block-12, .text-block-2 {
+  .link-block-with-heart, .heart-button-text, .text-block-2 {
     text-decoration: none;
   }
 
