@@ -2133,6 +2133,16 @@ a {
   display: none;
 }
 
+.lightbox-link {
+  color: var(--color--creme);
+  text-decoration: none;
+}
+
+.lightbox-link:focus {
+  outline-offset: 0px;
+  outline: 3px #f4eee9;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     margin-bottom: 32px;
